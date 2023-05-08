@@ -1,0 +1,47 @@
+	#map {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		position: relative;
+	}
+
+	#map svg path{
+		fill: rgb(185 174 174);
+	}
+	#map svg path:hover{
+		fill: gray;
+	}
+	#map svg {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+
+ 	#map #checked{
+		fill: rgb(142 32 186);
+		position: relative;
+	}
+
+	.flags-inner{
+		display: flex;
+		justify-content: center;
+		gap: 15px;
+		margin-top: 25px;
+	}
+
+	#map-flag{
+		width: 3.5vw;
+		cursor: pointer;
+		transition: .5s ease-in;
+	}
+
+	#map-flag:hover{
+		transform: scale(1.1);
+
+	}
+	
+
+
+
+	
+	
